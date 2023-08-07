@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="shortcut icon" href="./images/FAVICON-SPACEX.png" type="image/x-icon" />
+    <title>Rumo a Marte</title>
+  </head>
+  <body class="pt-5">
+    <div class="container">
+      <div class="div-content mx-auto mb-4 px-4 py-3 formBody rounded">
+        <div class="text-center">
+          <img
+            src="./images/logoOneBitDark.png"
+            class="img-fluid mt-2 mb-3"
+            alt="onebitcode-logo"
+            id="onebitcode-logo"
+          />
+        </div>
+        <form action="">
+          <!-- Text group / Name -->
+          <div class="question-group mb-2">
+            <p class="paragraph mb-2">1 - Qual o seu nome?</p>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Primeiro nome:</span>
+              <input
+                type="text"
+                aria-label="first-name"
+                name="first-name"
+                class="form-control"
+                placeholder="Digite aqui"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Segundo nome:</span>
+              <input
+                type="text"
+                class="form-control"
+                aria-label="last-name"
+                name="last-name"
+                placeholder="Digite aqui"
+              />
+            </div>
+          </div>
+
+          <!-- Radio group / Gender -->
+          <div class="question-group mb-2">
+            <p class="paragraph mb-2">2 - Qual o seu gênero?</p>
+            <div class="form-check">
+              <input
+                type="radio"
+                name="gender"
+                id="gender1"
+                value="man"
+                class="form-check-input"
+              />
+              <label for="gender1" class="form-check-label paragraph">Homem</label>
+            </div>
+            <div class="form-check">
+              <input
+                type="radio"
+                name="gender"
+                id="gender2"
+                value="woman"
+                class="form-check-input"
+              />
+              <label for="gender2" class="form-check-label paragraph">Mulher</label>
+            </div>
+            <div class="form-check">
+              <input
+                type="radio"
+                name="gender"
+                id="gender3"
+                value="others"
+                class="form-check-input"
+              />
+              <label for="gender3" class="form-check-label paragraph">Outros</label>
+            </div>
+          </div>
+
+          <!-- Checkbox / Trainings -->
+          <div class="question-group mb-2">
+            <p class="paragraph mb-2">3 - Marque os treinamentos que você fez:</p>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                name="training"
+                id="training-1"
+                class="form-check-input"
+                role="switch"
+              />
+              <label for="training-1" class="form-check-label paragraph"
+                >Treinamento básico de astronauta</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                name="training"
+                id="training-2"
+                class="form-check-input"
+                role="switch"
+              />
+              <label for="training-2" class="form-check-label paragraph"
+                >Treinamento físico básico
+              </label>
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                name="training"
+                id="training-3"
+                role="switch"
+              />
+              <label for="training-3" class="form-check-label paragraph"
+                >Treinamento avançado de astronauta</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                name="training"
+                id="training-4"
+                role="switch"
+              />
+              <label for="training-4" class="form-check-label paragraph"
+                >Treinamento físico intenso</label
+              >
+            </div>
+          </div>
+
+          <!-- Checkbox / Qualities -->
+          <div class="question-group mb-3">
+            <p class="paragraph mb-2">4 - Quais você acha que são suas qualidades?</p>
+            <div class="row">
+              <div class="col-sm-6 col-md-4 w-auto">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="qualities"
+                  id="qualities1"
+                />
+                <label for="qualities1" class="form-check-label paragraph"
+                  >Proativo</label
+                >
+              </div>
+
+              <div class="col-sm-6 col-md-4 w-auto">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="qualities"
+                  id="qualities2"
+                />
+                <label for="qualities2" class="form-check-label paragraph"
+                  >Resistente</label
+                >
+              </div>
+
+              <div class="col-sm-6 col-md-4 w-auto">
+                <input
+                  type="checkbox"
+                  name="qualities"
+                  id="qualities3"
+                  class="form-check-input"
+                />
+                <label for="qualities3" class="form-check-label paragraph"
+                  >Não vomito fácil</label
+                >
+              </div>
+
+              <div class="col-sm-6 w-auto">
+                <input
+                  type="checkbox"
+                  name="qualities"
+                  id="qualities4"
+                  class="form-check-input"
+                />
+                <label for="qualities4" class="form-check-label paragraph"
+                  >Não temo marciano</label
+                >
+              </div>
+
+              <div class="col-sm-6 w-auto">
+                <input
+                  type="checkbox"
+                  name="qualities"
+                  id="qualities5"
+                  class="form-check-input"
+                />
+                <label for="qualities5" class="form-check-label paragraph"
+                  >Já vi todos Star Wars</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-outline-danger">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <p class="paragraph text-center">
+          Feito por Marcus Vinícius © OneBitCode todos os direitos reservados - 2023
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>

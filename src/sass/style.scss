@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-image: url("../images/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  #onebitcode-logo {
+    width: 190px;
+  }
+
+  .div-content {
+    width: 28rem;
+    background-color: #111111;
+  }
+  .paragraph {
+    color: #fff;
+  }
+}
